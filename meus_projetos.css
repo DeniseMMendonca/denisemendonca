@@ -1,0 +1,77 @@
+body {
+  background-color: #B0E0E6;
+}
+.img-hopper {
+  width: 90%;
+  height: 50%;
+  border: 10px solid;
+  border-image: url(floral.avif) 150 round;
+}
+.img-curri {
+  width: 90%;
+  height: 70%;
+  border: 10px solid;
+  border-image: url(floral.avif) 150 round;
+}
+.img-hopper {
+  width: 90%;
+  height: 50%;
+  border: 10px solid;
+  border-image: url(floral.avif) 150 round;
+}
+h1 {
+  background: #B0E0E6;
+  color: #0000FF;
+  text-align: center;
+  font-family: cursive;
+  font-size: 3rem;
+  border: 13px solid;
+  border-image: url(floral.avif) 150 round;
+}
+p{
+      flex: 0;
+      padding: 1%;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  color: cornflowerblue;
+  background-color: white;
+  border: 1px solid blue;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.sub {
+  font-size: 15px;
+  text-align: center;
+  width: 5px;
+  text-decoration: underline;
+}
+.sob {
+  font-size: 15px;
+  text-align: left;
+  width: 100%;
+  text-decoration: underline;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px;
+}
+
+.column {
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+
+.column p {
+  font-size: 0.9em;
+}
+ 
+img {
+   height: 30px;
+   width: 30px;
+ }
+ 

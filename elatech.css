@@ -1,0 +1,120 @@
+body {
+    flex: 0;
+    padding: 2%;
+    background-color: #B0E0E6;
+    border: 20px solid;
+    border-image: url(floral.avif) 190 round;
+
+ 
+}
+ .texto {
+    flex: 1; 
+    padding: 10%;
+   
+ }
+.imagem {
+  flex: 0;
+  padding: 0%;
+  background-color: #B0E0E6;
+  border: 20px solid;
+  border-image: url(floral.avif) 190 round;
+}
+.banner {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("borboleta.jpg");
+  background-size: cover;
+  background-position: bottom;
+  z-index: -1;
+  opacity: 0.4;
+}
+img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blue;
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 3rem;
+  color: blue;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+ .coluna {
+    width: 50%; 
+    float: left;
+    text-align: left;
+     border-collapse: separate; 
+  border-spacing: 20px;
+ }
+ .divp {
+   text-align: center;
+   color: darkblue;
+ }
+ h2 {
+   text-align: center;
+   color: white;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ h3 {
+   text-align: center;
+   color: white;
+   font-size: 2rem;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+.homi {
+  background-color: white;
+  text-align: center;
+  color: black;
+  border: none;
+}
+#comic-container{
+  background-color: black;
+  border: 2px solid blue;
+}
+#comic-panel{
+  border-image: 10px white;
+}
+#prev-button{
+  text-align: center;
+}
+.container {
+  text-align: center;
+  font-family: cursive;
+  font-size: 2rem;
+  color: blue;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.iframe {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2rem;
+    color: blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+iframe {
+  border: 2px solid blue;
+}
+h4 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+ 
+}
+h5 {
+    text-align: center;
+    font-size: 2rem;
+  
+}
